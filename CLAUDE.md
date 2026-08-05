@@ -14,14 +14,14 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Identity
 - **Name:** Ryan Kuang
-- **Location:** Melbourne, VIC, Australia (also open to New Zealand; Sydney/Brisbane lower priority)
+- **Location:** Melbourne, VIC, Australia (also open to New Zealand; Sydney/Brisbane lower priority but confirmed acceptable, including relocation for the right full-time role)
 - **Languages:**
   | Language | Level |
   |----------|-------|
   | English | Native / professional working proficiency |
 - **CV language:** English
 
-- **Status:** Full-time student (Master of Data Science, University of Melbourne, expected Nov 2026); seeking junior/intermediate roles, also open to internships and graduate programs
+- **Status:** Full-time student (Master of Data Science, University of Melbourne, expected Nov 2026); seeking junior/intermediate roles, also open to internships and graduate programs. Confirmed willing to take on full-time work alongside ongoing study when the opportunity fits.
 - **LinkedIn headline:** "Graduate Software and Data Engineer"
 
 ### Education
