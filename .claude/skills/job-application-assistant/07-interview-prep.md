@@ -14,44 +14,49 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+### 1. Social Media Data Analytics Platform (Cloud architecture & scaling)
+**S:** As part of a multi-disciplinary student team at the University of Melbourne, needed a platform to harvest and process thousands of social media posts per minute for large-scale analytics.
+**T:** Design a cloud architecture that could scale horizontally and stay resilient under variable load.
+**A:** Designed a loosely coupled architecture on the Nectar Research Cloud (OpenStack) supporting 5+ independently scalable services, then implemented Kubernetes with KEDA event-driven autoscaling to match resource usage to demand.
+**R:** Improved system performance by 63%, reduced single points of failure, and delivered a platform the team could rely on during peak ingestion periods.
+**Use for:** "Tell me about a time you designed a scalable system", "Describe a technical challenge you solved", "Experience with cloud/Kubernetes"
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Automated SQL Script Generation Tool (Ownership & measurable impact)
+**S:** At Pragmatic System Development, manual SQL script creation was slow and error-prone for the development team.
+**T:** Build a tool to automate script generation and reduce developer errors.
+**A:** Built an automated SQL script generation tool in C# .NET Core, applying Dependency Injection (Autofac), Singleton, and Factory design patterns to keep the codebase maintainable and extensible.
+**R:** Reduced manual script creation time, cut duplicated code by 15%, and made it easier for the team to extend the tool with new features.
+**Use for:** "Tell me about a project you owned end-to-end", "Describe how you improved a process", "Experience with software design patterns"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Elderly Home Monitor (Cross-functional collaboration & stakeholder communication)
+**S:** A university project required building a care-monitoring system usable by non-technical caregivers.
+**T:** Deliver a secure, maintainable full-stack system while keeping the solution aligned with caregiver needs.
+**A:** Built the backend in Python/Flask/MongoDB/Pydantic, developed an indoor tracking algorithm, and built a responsive React + Tailwind CSS interface with real-time map visualization. Facilitated weekly stakeholder reviews to present prototypes and gather feedback.
+**R:** Delivered a system whose usability was directly shaped by caregiver feedback, plus documentation to support handover and maintenance.
+**Use for:** "Tell me about working with non-technical stakeholders", "Describe a full-stack project you built", "How do you incorporate user feedback?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 4. SQL Query Optimization (Analytical problem-solving)
+**S:** During the internship at Pragmatic System Development, several production SQL queries were running slowly, affecting data retrieval performance.
+**T:** Identify and fix the performance bottlenecks.
+**A:** Analyzed and optimised complex SQL queries, restructuring logic to reduce execution time.
+**R:** Cut query execution time by 23%, directly improving data retrieval performance for the team.
+**Use for:** "Tell me about a time you improved performance", "Describe your approach to debugging/optimization", "Give an example of analytical problem-solving"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 
 ## Common Tough Questions
 
-### "Why did you leave [previous company]?"
-> [PREPARE YOUR ANSWER - be honest, forward-looking, no negativity about former employer]
+### "Why did you leave Pragmatic System Development?"
+> The internship was a fixed-term placement tied to my studies in Auckland. I gained strong hands-on experience with backend development and design patterns, and now that I've moved to Melbourne for my Master of Data Science, I'm looking for a role where I can build on that foundation and grow into AI/ML engineering.
 
-### "You don't have [specific skill/experience]."
-> [PREPARE YOUR ANSWER - acknowledge the gap, bridge to adjacent experience, show willingness to learn]
+### "You don't have professional experience in machine learning engineering."
+> That's fair - my ML experience so far is project-based rather than professional. But I've built and deployed real systems end-to-end: a cloud-native data platform with Kubernetes autoscaling, and applied statistical modelling in my Master's coursework. I learn new stacks quickly, as shown by picking up C#/.NET, Flask/MongoDB, and Kubernetes/KEDA all within about a year - I'd bring that same speed to ramping up on production ML engineering.
 
 ### "Where do you see yourself in 5 years?"
-> [PREPARE YOUR ANSWER - show ambition aligned with the role's growth path]
+> Growing into a specialist AI/ML engineering role where I'm owning the design and deployment of production ML systems, ideally having built deep expertise in one domain while keeping the full-stack, cloud-native perspective I have now.
 
 ### "What's your biggest weakness?"
-> [PREPARE YOUR ANSWER - genuine weakness with concrete mitigation strategy]
+> I've built broad exposure across backend, cloud, and frontend rather than deep specialization in one area yet. I'm actively narrowing that focus toward AI/ML - this Master's degree and my recent projects are a deliberate step in that direction.
 
 ### "Why this company specifically?"
 > Customize per company. Must reference: specific projects, company values, market position, or team structure. Never give a generic answer.

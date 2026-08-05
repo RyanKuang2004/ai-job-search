@@ -115,12 +115,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For AI / Machine Learning Engineer roles:**
+> Graduate Data Scientist and Software Engineer with hands-on experience building ML-enabled systems, from a high-throughput data harvesting platform with Kubernetes-based autoscaling to applied statistical modelling in a Master of Data Science (H1, University of Melbourne). Combines a strong foundation in Python, TensorFlow, and Scikit-learn with production-style engineering discipline gained from a software development internship and cloud-native project delivery on AWS, Docker, and Kubernetes. Seeking a graduate or junior AI/ML engineering role to apply and grow this end-to-end skillset.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Software Engineer roles:**
+> Graduate Software Engineer with a Bachelor of Science (GPA 8.9/9.0, University of Auckland) and hands-on experience across the full stack, from backend automation tooling built in C#/.NET Core during a software development internship, to cloud-native platforms on Kubernetes and full-stack applications in Python/Flask and React. Strong grounding in software design patterns, SQL optimization, and agile delivery. Currently completing a Master of Data Science (University of Melbourne), seeking a graduate or junior software engineering role.
+
+**For Data Engineer / Data Scientist roles:**
+> Data Science graduate student (H1, University of Melbourne) with practical experience designing cloud-native data pipelines, including a high-throughput social media data harvester on AWS/OpenStack and Kubernetes. Skilled in Python, SQL, and statistical modelling, with a software engineering internship background that brings production-quality discipline to data work. Seeking a graduate or junior data engineering / data science role.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

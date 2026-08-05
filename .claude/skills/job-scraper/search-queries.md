@@ -13,10 +13,9 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 ## Search Sites
 
 Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+- **seek.com.au / seek.co.nz** - largest general job board for Australia/New Zealand. Not yet scaffolded as a CLI skill - **priority candidate for `/add-portal`**. Until then, covered via the `site:` WebSearch fallback below.
+- **linkedin.com/jobs** - LinkedIn job listings (filter: Australia/New Zealand, Melbourne/Auckland/Sydney/Brisbane); covered by the `linkedin-search` CLI
+- **jora.com.au** - secondary AU/NZ aggregator (optional, WebSearch fallback only)
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
@@ -25,53 +24,55 @@ Secondary (company career pages via Google):
 
 Queries are grouped by priority. Write **each category in every language from your Languages table** (see Language scope above). Combine each query with your location terms (e.g. your city, region, or metro area) where the site supports it.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: AI / Machine Learning Engineer
 
-These match your strongest and most desired career direction.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+These match the strongest and most desired career direction (top priority).
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:seek.com.au "AI Engineer" OR "Machine Learning Engineer" Melbourne
+site:seek.com.au "Machine Learning Engineer" graduate OR junior Melbourne
+site:linkedin.com/jobs "Machine Learning Engineer" Australia
+site:linkedin.com/jobs "AI Engineer" graduate Australia OR "New Zealand"
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Software Engineer
 
-Adjacent roles you could pivot into.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+Second priority - general graduate/junior software engineering roles.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:seek.com.au "Software Engineer" graduate OR junior Melbourne
+site:seek.co.nz "Software Engineer" graduate OR junior
+site:linkedin.com/jobs "Graduate Software Engineer" Australia
+```
+
+### Priority 3: Data Engineer / Data Scientist
+
+Third priority.
+
+```
+site:seek.com.au "Data Engineer" OR "Data Scientist" graduate OR junior Melbourne
+site:linkedin.com/jobs "Data Engineer" OR "Data Scientist" graduate Australia
+```
+
+### Priority 4: Broader Technical / Internships & Grad Programs
+
+Wider net, including internships and structured graduate programs.
+
+```
+site:seek.com.au "graduate program" software OR data OR engineering Melbourne
+site:linkedin.com/jobs "software engineer intern" OR "graduate program" Australia
+site:seek.com.au Python developer Melbourne
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+When evaluating results, verify the job location is within reasonable range. Define acceptable areas:
+- Melbourne, VIC and surrounding areas (ideal)
+- Auckland / New Zealand nationwide (ideal - equally acceptable to Melbourne)
+- Sydney, NSW (acceptable - lower priority)
+- Brisbane, QLD (acceptable - lower priority)
+- Other Australian/NZ cities (borderline - flag for discussion)
+- Outside Australia/New Zealand (too far)
 
 ## Language Filter
 

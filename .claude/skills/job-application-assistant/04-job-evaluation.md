@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Python, SQL, Machine Learning fundamentals (Pandas, NumPy, Scikit-learn, TensorFlow), cloud-native architecture (AWS, Docker, Kubernetes), full-stack development
+**Moderate match areas:** Java, C#, R, statistical modelling, MLOps/deployment tooling (KEDA, OpenStack)
+**Weak match areas:** Deep learning at production scale, MLOps/model-monitoring platforms, large-scale distributed systems, formal industry ML engineering experience
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -74,9 +74,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Software development internship (C#/.NET), academic ML/data projects, cloud-native project delivery
+**Moderate:** Machine learning engineering (project-based, not yet professional), data engineering
+**Entry-level:** AI/ML engineer, software engineer, data engineer/data scientist - all evaluated as graduate/junior/intermediate roles, not senior positions
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -106,20 +106,20 @@ Does this role advance career goals and contain tasks that energize?
 | 40-59 | Decent job but doesn't build toward career goals |
 | 0-39 | Dead end or backwards step |
 
-**Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+**Career goals (priority order):**
+1. AI / Machine Learning Engineer roles - top priority
+2. Software Engineering roles - second priority
+3. Data Engineer / Data Scientist roles - third priority
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: Building and deploying ML/AI systems end-to-end, cloud-native architecture, turning ambiguous problems into working systems
+- Tasks that drain: Not yet well established - flag any signal from applications for calibration
+- Non-task factors: collaborative team culture, some early mentorship/structure, fast-paced hands-on environments
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Currently a full-time student; income stability is a secondary consideration to career direction at this stage
+- **Flexibility**: Enrolled in Master of Data Science through Nov 2026 - part-time/internship roles must accommodate study; full-time roles considered if timing works
+- **Professional development**: Actively building toward AI/ML specialization; roles offering mentorship and growth into ML engineering are weighted favorably
 
 ### 6. Salary Benchmark (Optional)
 

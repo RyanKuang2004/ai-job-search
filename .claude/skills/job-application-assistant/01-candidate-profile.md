@@ -8,66 +8,66 @@ framework_version: 1.1.1
 <!-- After running /setup, all sections will be filled with your actual information -->
 
 ## Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_ADDRESS]
-- **Phone:** [YOUR_PHONE]
-- **Email:** [YOUR_EMAIL]
-- **LinkedIn:** [YOUR_LINKEDIN_URL]
-- **GitHub:** [YOUR_GITHUB_URL]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **Constraints:** [YOUR_COMMUTE_OR_LOCATION_CONSTRAINTS]
+- **Name:** Ryan Kuang
+- **Location:** Melbourne, VIC, Australia
+- **Phone:** 0426 595 824
+- **Email:** ryankuang888@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/ryankuang1
+- **GitHub:** https://github.com/RyanKuang2004
+- **Status:** Full-time student (Master of Data Science), seeking junior/intermediate roles, open to internships and graduate programs. Confirmed willing to take on full-time roles alongside ongoing study if the opportunity fits (e.g. Sydney relocation, Aug 2026).
+- **Constraints:** Melbourne primary; New Zealand equally acceptable; Sydney/Brisbane lower priority but confirmed acceptable, including relocation for a full-time, office-based role (e.g. Woolloo Graduate application). No relocation dealbreakers at this career stage.
 
 ### Languages
-<!-- Every language you can work in professionally, with your honest level. Used by the
-Language Gate in 04-job-evaluation.md and by job-scraper/search-queries.md's query-language
-generation. Omit any language you don't actually work in - an undeclared language is treated as
-a hard no, not a gap to smooth over. -->
-
 | Language | Level | Notes |
 |----------|-------|-------|
-| [LANGUAGE] | [LEVEL, e.g. "Native" / "C2" / "B1/B2 (conversational)"] | [optional] |
+| English | Native / professional working proficiency | |
 
 ## Education
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| [DEGREE] | [YEARS] | [INSTITUTION] | [TOPICS] |
+| Master of Data Science (in progress, expected Nov 2026) | Mar 2025 - Nov 2026 | University of Melbourne (H1) | Data science, machine learning, statistical modelling |
+| Bachelor of Science | Feb 2022 - Dec 2024 | University of Auckland (GPA 8.9/9.0) | Computer science, statistics |
 
 ## Professional Experience
 
-### [JOB_TITLE] - [COMPANY] ([START] - [END])
-[LOCATION]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_1]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_2]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_3]
-
-<!-- Add more roles as needed -->
+### Software Developer Intern - Pragmatic System Development Ltd (Dec 2023 - Dec 2024)
+Auckland, New Zealand
+- Built an automated SQL script generation tool using C# .NET Core, reducing manual script creation time and minimising developer errors
+- Implemented Dependency Injection (Autofac), Singleton, and Factory patterns, reducing tight coupling and cutting duplicated code by 15%
+- Optimised complex SQL queries, cutting execution time by 23% and improving data retrieval performance
+- Facilitated daily stand-ups and sprint planning, enabling smoother cross-team coordination
+- Collaborated with 2 senior developers and product stakeholders to translate business requirements into technical designs
 
 ## Independent Projects
-<!-- Projects outside of employment: freelance, open source, personal -->
-- **[PROJECT_NAME]**: [DESCRIPTION]
+- **Social Media Data Analytics Platform** (Mar-Jun 2025, University of Melbourne): High-throughput social media data harvester processing thousands of posts per minute; loosely coupled cloud architecture on Nectar Research Cloud (OpenStack) supporting horizontal scaling of 5+ services; Kubernetes + KEDA autoscaling improved performance by 63%
+- **Elderly Home Monitor** (Aug-Nov 2024, University of Auckland): Full-stack care monitoring system (Python, Flask, MongoDB, Pydantic) with an indoor tracking algorithm and a responsive React + Tailwind CSS interface with real-time map visualization
 
 ## Technical Skills
 
 ### Programming & ML
-- **[LANGUAGE]** ([PROFICIENCY]): [FRAMEWORKS_AND_LIBRARIES]
-- [OTHER_SKILLS]
+- **Python** (primary): Pandas, NumPy, Scikit-learn, TensorFlow, Flask, REST APIs, Pydantic
+- **SQL, Java, C#, R**
+- Statistical Modelling
 
 ### Domain Expertise
-- [DOMAIN_1]
-- [DOMAIN_2]
+- Cloud-native architecture (AWS, Docker, Kubernetes, KEDA, OpenStack)
+- ML-enabled systems and data pipelines
+- Full-stack development (React, JavaScript, Tailwind CSS)
 
 ### Software & Tools
-- [TOOL_LIST]
+- AWS (EC2, S3), Docker, Kubernetes, KEDA, OpenStack, PostgreSQL, MongoDB, SQLite, Elasticsearch, Git, GitHub, Jira, Agile delivery
 
 ## Publications
-<!-- List peer-reviewed publications, if any -->
-1. [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL]. [DOI_LINK]
+None yet
 
 ## Awards
-- [AWARD] - [EVENT] ([YEAR])
+- Melbourne Future Generations Scholarship - University of Melbourne (2025)
+- Engineering and IT Foundation Graduate Scholarship - University of Melbourne
+- Senior Scholar Award - University of Auckland (2024)
+- First in Course Awards (COMPSCI 230, COMPSCI 225, STATS 201, STATS 326) - University of Auckland (2023)
 
 ## References
-- [NAME], [TITLE], [COMPANY] ([EMAIL], [PHONE])
+None recorded yet - add references as they become available.
 
 More references available upon request.

@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Ryan Kuang
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Ryan Kuang, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +13,71 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Ryan Kuang
+- **Location:** Melbourne, VIC, Australia (also open to New Zealand; Sydney/Brisbane lower priority)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+  | English | Native / professional working proficiency |
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Full-time student (Master of Data Science, University of Melbourne, expected Nov 2026); seeking junior/intermediate roles, also open to internships and graduate programs
+- **LinkedIn headline:** "Graduate Software and Data Engineer"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Master of Data Science** (Mar 2025 - Nov 2026, in progress, expected Nov 2026) - University of Melbourne, Grade: H1
+- **Bachelor of Science** (Feb 2022 - Dec 2024) - University of Auckland, GPA: 8.9/9.0
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Software Developer Intern** (Dec 2023 - Dec 2024) - **Pragmatic System Development Ltd** (Auckland, New Zealand)
+  - Built an automated SQL script generation tool using C# .NET Core, reducing manual script creation time and minimising developer errors
+  - Implemented Dependency Injection (Autofac), Singleton, and Factory patterns, reducing tight coupling and duplicated code by 15%
+  - Optimised complex SQL queries, cutting execution time by 23% and improving data retrieval performance
+  - Facilitated daily stand-ups and sprint planning, enabling smoother cross-team coordination
+  - Collaborated with 2 senior developers and product stakeholders to translate business requirements into technical designs
+
+### Independent Projects
+- **Social Media Data Analytics Platform** (Mar 2025 - Jun 2025, University of Melbourne): High-throughput social media data harvester processing thousands of posts per minute; loosely coupled cloud architecture on Nectar Research Cloud (OpenStack) supporting horizontal scaling of 5+ services; Kubernetes + KEDA autoscaling improved performance by 63%
+- **Elderly Home Monitor** (Aug 2024 - Nov 2024, University of Auckland): Full-stack care monitoring system (Python, Flask, MongoDB, Pydantic); indoor tracking algorithm; responsive React + Tailwind CSS interface with real-time map visualization; weekly stakeholder reviews
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python, SQL, Machine Learning (Pandas, NumPy, Scikit-learn, TensorFlow, Statistical Modelling)
+- **Secondary:** Java, C#, R, Flask, REST APIs, Pydantic, React, JavaScript, Tailwind CSS
+- **Domain:** Cloud-native architecture, ML-enabled systems, data pipelines
+- **Software:** AWS (EC2, S3), Docker, Kubernetes, KEDA, OpenStack, PostgreSQL, MongoDB, SQLite, Elasticsearch, Git, GitHub, Jira, Agile delivery
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- None recorded yet
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- Melbourne Future Generations Scholarship - University of Melbourne (2025)
+- Engineering and IT Foundation Graduate Scholarship - University of Melbourne
+- Senior Scholar Award - University of Auckland (2024)
+- First in Course Awards (COMPSCI 230, COMPSCI 225, STATS 201, STATS 326) - University of Auckland (2023)
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Hands-on learner** - thrives in fast-paced, learn-by-doing environments, but values clear structure and guidance early in a role
+- **Collaborative** - strong preference for team-heavy environments with frequent interaction
+- **Analytical yet pragmatic decision-maker** - gathers data before deciding, but iterates quickly and adjusts rather than over-analyzing; checks decisions with teammates
+- **Strengths:** Fast learner, translates ambiguous problems into working systems, comfortable across the full stack (data, backend, cloud, frontend)
+- **Growth areas:** Building deeper specialization now that foundational breadth is established
+- **Thrives in:** Collaborative teams with mentorship early on, hands-on technical work, environments that value iteration over rigid process
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building and deploying machine learning / AI systems end-to-end
+- Cloud-native architecture and scalable systems design
+- Turning ambiguous, real-world problems into working technical solutions
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **AI / Machine Learning:** ML engineering teams, applied AI roles
+- **Software Engineering:** general graduate/junior software engineering roles
+- **Data Engineering / Data Science:** data platform and analytics roles
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- None specific at this career stage - open to most roles and environments
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
