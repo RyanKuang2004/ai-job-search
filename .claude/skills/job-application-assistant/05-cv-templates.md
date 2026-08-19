@@ -4,6 +4,20 @@ framework_version: 1.4.0
 
 # CV Templates and Tailoring Guide
 
+<!-- BEGIN ACTIVE-TEMPLATE (managed by /add-template - do not edit by hand) -->
+> **Active template override: `ryan-resume`**
+>
+> A custom template is active. Where this block conflicts with the stock guidance below, this block wins. Structural advice below (tailoring, page-budget, cutting rules) still applies.
+>
+> - **Template skeleton:** `templates/cv/ryan-resume/template.tex` — use this as the structural reference instead of the stock template
+> - **Manifest:** `templates/cv/ryan-resume/TEMPLATE.md` — read this for style rules and known pitfalls before drafting
+> - **Source extension:** `.tex`
+> - **Compile command:** `lualatex -interaction=nonstopmode <file>.tex` using MiKTeX's binary explicitly (`"C:/Users/ryank/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lualatex.exe"`) — bare `lualatex` on PATH resolves to TinyTeX and lacks required packages
+> - **Fonts:** Calibri (system font, installed at `C:\Windows\Fonts` — not portable to a machine without it; substitute Carlito if needed)
+> - **Page limit:** exactly 2 page(s)
+> - **Output file:** `cv/main_<company>_<role>.tex`; no class/package/font files need copying (all packages are standard MiKTeX packages, font is a system font)
+<!-- END ACTIVE-TEMPLATE -->
+
 <!-- SETUP: Profile statements and section ordering are personalized by running /setup -->
 
 ## Template: LaTeX moderncv (Banking Style)

@@ -1,0 +1,105 @@
+% !TEX program = lualatex
+% ryan-resume CV template — recreates the clean single-column Calibri resume
+% (ryan_resume.docx), converted to LaTeX. Compile with lualatex.
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{fontspec}
+\setmainfont{Calibri}
+
+\usepackage[top=0.68in,bottom=0.68in,left=0.68in,right=0.68in]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{parskip}
+
+\definecolor{headingfill}{HTML}{D2EAF1}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=black,
+  linkcolor=black
+}
+
+\setlist[itemize]{
+  leftmargin=1.1em,
+  itemsep=1pt,
+  parsep=0pt,
+  topsep=2pt
+}
+
+% Section heading: bold, all-caps, light-blue background band, full text width
+\newcommand{\cvsection}[1]{%
+  \vspace{6pt}%
+  \noindent\colorbox{headingfill}{\parbox{\dimexpr\textwidth-2\fboxsep}{\textbf{\MakeUppercase{#1}}}}%
+  \vspace{4pt}%
+}
+
+% Entry title row: bold title on the left, date range on the right
+\newcommand{\cventry}[2]{%
+  \noindent\begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{#1} & #2
+  \end{tabularx}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% ---------- Header ----------
+\begin{center}
+  {\LARGE \textbf{[YOUR_NAME]}}\\[4pt]
+  \href{mailto:[YOUR_EMAIL]}{[YOUR_EMAIL]} \quad
+  [YOUR_PHONE] \quad
+  \href{https://[YOUR_LINKEDIN_URL]}{[YOUR_LINKEDIN_URL]}
+\end{center}
+
+% ---------- Education ----------
+\cvsection{Education}
+
+\cventry{[DEGREE_NAME]}{[START_DATE] -- [END_DATE]}
+[INSTITUTION] \textbar\ Grade: [GRADE]
+
+\vspace{4pt}
+\cventry{[DEGREE_NAME]}{[START_DATE] -- [END_DATE]}
+[INSTITUTION] \textbar\ GPA: [GPA]
+
+% ---------- Relevant Experience ----------
+\cvsection{Relevant Experience}
+
+\cventry{[JOB_TITLE]}{[START_DATE] -- [END_DATE]}
+[COMPANY], [LOCATION]
+\begin{itemize}
+  \item [ACHIEVEMENT_BULLET_1]
+  \item [ACHIEVEMENT_BULLET_2]
+  \item [ACHIEVEMENT_BULLET_3]
+\end{itemize}
+
+% ---------- Core Skills ----------
+\cvsection{Core Skills}
+
+\textbf{[SKILL_CATEGORY_1]:} [SKILL_LIST_1]\\
+\textbf{[SKILL_CATEGORY_2]:} [SKILL_LIST_2]\\
+\textbf{[SKILL_CATEGORY_3]:} [SKILL_LIST_3]
+
+% ---------- Personal Statement ----------
+\cvsection{Personal Statement}
+
+[PERSONAL_STATEMENT_TEXT]
+
+% ---------- Awards and Scholarships ----------
+\cvsection{Awards and Scholarships}
+
+[AWARD_1] \textbar\ [AWARD_1_ISSUER] \textbar\ [AWARD_1_YEAR]\\
+[AWARD_2] \textbar\ [AWARD_2_ISSUER] \textbar\ [AWARD_2_YEAR]
+
+% ---------- Projects ----------
+\cvsection{Projects}
+
+\cventry{[PROJECT_NAME]}{[START_DATE] -- [END_DATE]}
+[PROJECT_CONTEXT]
+\begin{itemize}
+  \item [PROJECT_BULLET_1]
+  \item [PROJECT_BULLET_2]
+\end{itemize}
+
+\end{document}

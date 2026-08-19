@@ -41,6 +41,27 @@ Auckland, New Zealand
 - Collaborated with 2 senior developers and product stakeholders to translate business requirements into technical designs
 
 ## Independent Projects
+
+### Australian Job Market Analytics Platform (Jan-Jul 2026)
+Personal project - Python, PostgreSQL, Docker (self-hosted, runs 24/7)
+- Built an automated data pipeline collecting and structuring ~500 public Australian job listings per day, creating a reliable dataset for market analysis
+- Used LLMs to parse unstructured job descriptions into structured fields (programming languages, frameworks, tools, soft skills), expanding the database schema to support downstream analytics
+- Cut AI processing costs by roughly 50% by benchmarking multiple LLM providers on cost, reliability, and moderation behaviour, building automatic fallback between them, and shifting eligible extraction jobs to asynchronous batch processing
+- Built an AI-powered recommendation feature that scores and ranks job listings against a candidate's stated preferences and experience, surfacing the best-fit roles first
+- Built a reporting API turning collected data into hiring-trend and skills-demand insights, including skill/technology frequency queries across custom date ranges to track demand over time
+- Automated the full pipeline to run unattended on a daily schedule with data backups, with the core system covered by automated tests to catch regressions in data collection and extraction accuracy
+- Iteratively refined extraction prompts with explicit categorisation rules and schema validation on every LLM response, improving consistency and catching malformed output before it reached the database
+
+### Automated Fact-Checking System (May-Jul 2026)
+University of Melbourne, Group Project (3-person team, 4-week build)
+- Co-developed a two-stage AI pipeline that searches a 1.2M-document evidence base and classifies climate-related claims into one of four verdict categories
+- Coordinated weekly team meetings to align on progress, blockers, and design decisions over the 4-week build
+- Independently built and benchmarked competing approaches to the search and classification stages, then merged the strongest strategies with teammates' work via Git
+- Trained a custom AI search model to find relevant evidence, combined it with traditional keyword search to boost accuracy, and added a second-stage model to re-rank results using multiple signals of relevance
+- Trained a text classifier to sort claims into verdict categories, tuning it to handle imbalanced data across the four classes
+- Designed and ran four controlled experiments comparing different approaches, lifting classification accuracy from 47% to 55%
+- Investigated and documented three unsuccessful experiments through root-cause analysis, sharing findings to guide the team's final design choices
+
 - **Social Media Data Analytics Platform** (Mar-Jun 2025, University of Melbourne): High-throughput social media data harvester processing thousands of posts per minute; loosely coupled cloud architecture on Nectar Research Cloud (OpenStack) supporting horizontal scaling of 5+ services; Kubernetes + KEDA autoscaling improved performance by 63%
 - **Elderly Home Monitor** (Aug-Nov 2024, University of Auckland): Full-stack care monitoring system (Python, Flask, MongoDB, Pydantic) with an indoor tracking algorithm and a responsive React + Tailwind CSS interface with real-time map visualization
 
