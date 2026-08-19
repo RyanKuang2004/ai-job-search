@@ -19,6 +19,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
   | Language | Level |
   |----------|-------|
   | English | Native / professional working proficiency |
+- **Citizenship / work rights:** New Zealand citizen. Holds an Australian Special Category Visa (subclass 444) via the Trans-Tasman arrangement, with unrestricted work rights. Satisfies eligibility gates worded "Australian PR, or Australian or New Zealand citizen". Not an Australian citizen or PR, so Australian security clearance or Australian-citizenship-only roles are a hard fail.
 - **CV language:** English
 
 - **Status:** Full-time student (Master of Data Science, University of Melbourne, expected Nov 2026); seeking junior/intermediate roles, also open to internships and graduate programs. Confirmed willing to take on full-time work alongside ongoing study when the opportunity fits.

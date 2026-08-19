@@ -15,7 +15,8 @@ framework_version: 1.1.1
 - **LinkedIn:** https://www.linkedin.com/in/ryankuang1
 - **GitHub:** https://github.com/RyanKuang2004
 - **Status:** Full-time student (Master of Data Science), seeking junior/intermediate roles, open to internships and graduate programs. Confirmed willing to take on full-time roles alongside ongoing study if the opportunity fits (e.g. Sydney relocation, Aug 2026).
-- **Constraints:** Melbourne primary; New Zealand equally acceptable; Sydney/Brisbane lower priority but confirmed acceptable, including relocation for a full-time, office-based role (e.g. Woolloo Graduate application). No relocation dealbreakers at this career stage.
+- **Citizenship / work rights:** New Zealand citizen (confirmed Aug 2026). Under the Trans-Tasman Travel Arrangement this grants an Australian Special Category Visa (subclass 444) with unrestricted work rights, and satisfies employer eligibility gates phrased as "Australian PR, or Australian or New Zealand citizen". Not an Australian citizen or permanent resident, so roles requiring an Australian security clearance or Australian citizenship specifically remain a hard fail.
+- **Constraints:** Melbourne primary; New Zealand equally acceptable; Sydney and Brisbane confirmed acceptable, including relocation for a full-time, office-based role (e.g. Woolloo Graduate application). **Sydney relocation affirmatively confirmed Aug 2026** (Suncorp Technology and Data Science Graduate application), which unlocks streams that are not offered in Melbourne. No relocation dealbreakers at this career stage.
 
 ### Languages
 | Language | Level | Notes |
